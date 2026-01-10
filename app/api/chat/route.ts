@@ -38,9 +38,9 @@ INSTRUCCIONES IMPORTANTES:
 
 Lenguaje: Amigable, directo, sin términos legales innecesarios.`;
 
-    // Call to Groq API
+    // Call to the API
     const response = await groq.chat.completions.create({
-      model: "mixtral-8x7b-32768",
+      model: "llama-3.3-70b-versatile",
       messages: [
         {
           role: "system",
@@ -60,7 +60,7 @@ Lenguaje: Amigable, directo, sin términos legales innecesarios.`;
 
     return Response.json({ content });
   } catch (error: any) {
-    console.error("Groq API Error:", error);
+    console.error("Llama API Error:", error);
 
     return Response.json(
       {
