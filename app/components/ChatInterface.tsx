@@ -2,8 +2,9 @@
 
 import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+
 
 interface Message {
   role: "user" | "assistant";
@@ -80,9 +81,9 @@ export default function ChatInterface() {
       {/* Header */}
       <div className="bg-gradient-to-r from-teal-600 to-teal-700 text-white p-6 shadow-lg">
         <div className="max-w-2xl">
-          <h1 className="text-3xl font-bold">👨‍👧 Beneficios Papá</h1>
+          <h1 className="text-3xl font-bold">Beneficios para padres</h1>
           <p className="text-sm text-teal-100 mt-2">
-            Tu asesor de derechos laborales para papás en Chile
+            Tu asesor de derechos laborales para padres en Chile
           </p>
           <p className="text-xs text-teal-200 mt-1">
             Powered by Groq + Mixtral | 100% Gratuito
@@ -154,10 +155,10 @@ export default function ChatInterface() {
           </div>
         </form>
         <p className="text-xs text-gray-500 mt-3 px-1">
-          💡 Tip: Sé específico en tus preguntas. Ej: "Acabo de ser papá, trabajo
+          Tip: Sé específico en tus preguntas. Ej: "Acabo de ser papá, trabajo
           en remoto, ¿qué derechos tengo?"
         </p>
-      </form>
+      </div>
     </div>
   );
 }
