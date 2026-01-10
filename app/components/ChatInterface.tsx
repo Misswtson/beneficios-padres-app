@@ -86,7 +86,7 @@ export default function ChatInterface() {
             Tu asesor de derechos laborales para padres en Chile
           </p>
           <p className="text-xs text-teal-200 mt-1">
-            Powered by Groq + Mixtral | 100% Gratuito
+            Powered by Groq + Llama | 100% Gratuito
           </p>
         </div>
       </div>
