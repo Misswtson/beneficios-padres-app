@@ -34,8 +34,6 @@ LLM: Groq Cloud API (llama-3.3-70b-versatile)
 Datos: Markdown estático (lib/documents.ts)
 Deploy: Vercel (gratuito)
 
-text
-
 ---
 
 ## 🚀 Inicio Rápido
