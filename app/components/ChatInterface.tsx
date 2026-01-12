@@ -16,7 +16,7 @@ export default function ChatInterface() {
     {
       role: "assistant",
       content:
-        "¡Hola! 👋 Soy tu asistente sobre derechos de papás profesionales en Chile.\n\nPuedo ayudarte con preguntas sobre:\n✅ Permisos parentales y paternales\n✅ Fuero laboral\n✅ Sala cuna y beneficios\n✅ Teletrabajo y corresponsabilidad\n✅ Cómo activar tus derechos\n\n¿En qué puedo ayudarte hoy?",
+        "¡Hola! 👋 Soy tu asistente sobre derechos de padres en Chile.\n\nPuedo ayudarte con preguntas sobre:\n✅ Permisos parentales y paternales\n✅ Fuero laboral\n✅ Sala cuna y beneficios\n✅ Teletrabajo y corresponsabilidad\n✅ Cómo activar tus derechos\n\n¿En qué puedo ayudarte hoy?",
     },
   ]);
   const [input, setInput] = useState("");
@@ -155,7 +155,7 @@ export default function ChatInterface() {
           </div>
         </form>
         <p className="text-xs text-gray-500 mt-3 px-1">
-          Tip: Sé específico en tus preguntas. Ej: "Acabo de ser papá, trabajo
+          Tip: Sé específico en tus preguntas. Ej: "Acabo de ser padre, trabajo
           en remoto, ¿qué derechos tengo?"
         </p>
       </div>
